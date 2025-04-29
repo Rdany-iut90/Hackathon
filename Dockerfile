@@ -18,4 +18,4 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # Lancer ton app principale
-CMD ["streamlit", "run", "Multimodal-Bot.py"]
+CMD ["streamlit", "run", "Home.py"]
