@@ -1,0 +1,13 @@
+mistralai
+openai
+chromadb
+
+streamlit
+
+markdown
+PyMuPDF
+marker-pdf
+
+fastapi
+uvicorn
+pydub
