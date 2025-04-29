@@ -2,7 +2,7 @@ from openai import OpenAI
 import streamlit as st
 import base64
 
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+client = OpenAI(api_key=process.env.OPENAI_API_KEY;)
 
 def generate_image(prompt: str) -> str:
     """Génère une image avec DALL·E 3 et retourne l’URL."""
